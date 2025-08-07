@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #A5CDCB;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: visible;
+}
+
+header {
+    background: #B0C4C6;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+header nav ul li a {
+    color: #333; /* más oscuro y legible */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+}
+/* Estilos para el submenú */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 180px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content li a:hover {
+    background-color: #5d9aa5;
+}
+
+/* Mostrar el submenú al pasar el mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.posts article {
+    background: #E9E3E9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.posts article h2 {
+    color: #333;
+}
+
+.posts .date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #555;
+}
+
+footer {
+    background: #D2D7D6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 500px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.imagen-circular {
+    width: 150px;
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  */
+}
+
+.imagen-circular img {
+    width: 100%;
+    height: auto; 
+    border-radius: 50%; 
+}
